@@ -37,7 +37,7 @@ git flow init
 4. Generate new Azure Function App. I used the Azure Function Core CLI to generate the new function app.
 
 ```shell
-func init Kulba.Function.Calculator --worker-runtime dotnetisolated
+func init Kulba.Function.Calculator --dotnet
 ```
 
 5. Create a new HTTP function type. Navigate into the new directory Kulba.Function.Calculator that was created in the previous step. Here is another example of the Azure Function Core CLI command to generate the HTTP function. The generator uses the name value to create the new class and to name the function. The template value describes the name of the function. And the authlevel describes the execution security scope.
